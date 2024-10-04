@@ -42,7 +42,7 @@ with st.sidebar:
 
 # Main area
 st.title("AI Study Buddy")
-st.write("Your personal AI assistant for studying and learning.")
+st.write("Your personal AI assistant for studying and learning. Hit the > at the top to reveal options if you are using a phone")
 
 # Set up session state
 if "messages" not in st.session_state:
